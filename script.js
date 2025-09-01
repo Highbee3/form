@@ -16,10 +16,4 @@
 
 // let name = "olalekan"
 
-  function showAlert() {
-      document.getElementById("overlay").style.display = "flex";
-    }
-
-    function closeAlert() {
-      document.getElementById("overlay").style.display = "none";
-    }
+alert ("Hello world")

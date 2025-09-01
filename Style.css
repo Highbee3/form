@@ -101,46 +101,6 @@ background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1
 }
 
 
- body {
-      font-family: Arial, sans-serif;
-    }
-
-    /* Overlay background */
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.5);
-      display: none;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Alert box */
-    .custom-alert {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-      text-align: center;
-      width: 300px;
-    }
-
-    .custom-alert button {
-      margin-top: 15px;
-      padding: 8px 16px;
-      background: #007bff;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .custom-alert button:hover {
-      background: #0056b3;
-    }
 
 @media  screen and (max-width:768px) {
     .box{
